@@ -10,4 +10,112 @@ div + h3 + p {
 .text-box > div > p{
     color: red;
 }
+h3:first-child{
+    color: pink;
+}
+li:nth-child(1){
 
+    p:nth-child(2){
+        color:chartreuse;
+    }
+
+    p:nth-child(3){
+            color:darkorchid;
+    }
+
+    p:nth-child(4){
+        color:chocolate;
+    }
+
+    p:nth-child(5){
+        color:fuchsia;
+}
+p:nth-child(6){
+    color: darkgreen;
+    }
+p:nth-child(7){
+        color:crimson;
+    }
+    p:nth-child(8){
+        color:indigo;
+        }
+        p:hover,
+        p:focus
+        {
+            color:rgba(114, 255, 201, 0.607);
+        }
+}
+li:nth-child(2){
+    p:nth-child(2){
+        color:rgb(0, 225, 255);
+    }
+
+    p:nth-child(3){
+            color:rgb(136, 255, 0);
+    }
+
+    p:nth-child(4){
+        color:rgb(0, 255, 136);
+    }
+
+    p:nth-child(5){
+        color:fuchsia;
+}
+p:nth-child(6){
+    color: rgb(130, 138, 249);
+    }
+p:nth-child(7){
+        color:rgb(125, 47, 63);
+    }
+p:nth-child(8){
+        color:rgb(255, 221, 0);
+        }
+
+    p:hover,
+    p:focus
+    {
+        color:rgb(47, 53, 83);
+    }
+}
+li:nth-child(3){
+    p:nth-child(2n){
+        color:rgb(179, 255, 0);
+    }
+    p:nth-child(odd){
+        color:rgb(0, 213, 255);
+    }
+
+    p:hover,
+    p:focus
+    {
+        color:rgba(0, 42, 255, 0.642);
+    }
+}
+li:nth-child(4){
+    p:nth-child(-n+4){
+        color:rgb(255, 174, 0);
+    }
+    p:nth-child(n+5){
+        color:rgb(170, 0, 255);
+    }
+
+    p:hover,
+    p:focus
+    {
+        color:rgba(255, 0, 179, 0.642);
+    }
+}
+li:nth-child(5){
+    p:nth-child(-n+4){
+        color:rgb(24, 112, 195);
+    }
+    p:last-child{
+        color:rgb(0, 134, 96);
+    }
+
+    p:hover,
+    p:focus
+    {
+        color:rgba(255, 0, 0, 0.642);
+    }
+}
