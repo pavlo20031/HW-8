@@ -86,7 +86,9 @@ li:nth-child(3){
     }
 
     p:hover,
-    p:focus
+    p:focus,
+    p:checked,
+    p:link
     {
         color:rgba(0, 42, 255, 0.642);
     }
@@ -114,7 +116,9 @@ li:nth-child(5){
     }
 
     p:hover,
-    p:focus
+    p:focus,
+    p:checked,
+    p:visited
     {
         color:rgba(255, 0, 0, 0.642);
     }
